@@ -66,7 +66,7 @@ const TechCard = ({ name, img }: { name: string; img: string }) => {
 
 export function TechStack() {
   return (
-    <div className="relative text-focus-in flex h-[100px] w-5/12 flex-col items-center justify-center overflow-hidden">
+    <div className="relative text-focus-in flex h-[100px] w-5/12 max-sm:w-10/12 flex-col items-center justify-center overflow-hidden">
       <Marquee pauseOnHover className="[--duration:20s]">
         {technologies.map((tech) => (
           <TechCard key={tech.name} {...tech} />

@@ -13,14 +13,14 @@ export function Dockbar() {
 
   return (
     <Dock
-      className="bg-[#1e1e1e] border-[#000000] shadow-2xl fixed bottom-0 left-1/2 transform -translate-x-1/2 mb-7 px-7 py-10"
+      className="bg-[#1e1e1e] border-[#000000] shadow-2xl fixed bottom-0 left-1/2 transform -translate-x-1/2 mb-7 px-7 py-10 max-sm:px-3 max-sm:py-9"
       magnification={60}
       distance={50}
       direction="middle"
     >
       <DockIcon className={currentRoute === "/" ? active : inactive}>
         <LayoutGrid
-          className={`size-full ${
+          className={`size-full max-sm:size-auto ${
             currentRoute === "/" ? "text-[#dbdbdb]" : "text-[#6a6a6a]"
           }`}
           onClick={() => router.push("/")}
@@ -28,7 +28,7 @@ export function Dockbar() {
       </DockIcon>
       <DockIcon className={currentRoute === "/project" ? active : inactive}>
         <Zap
-          className={`size-full ${
+          className={`size-full max-sm:size-auto ${
             currentRoute === "/project" ? "text-[#dbdbdb]" : "text-[#6a6a6a]"
           }`}
           onClick={() => router.push("/project")}
@@ -36,7 +36,7 @@ export function Dockbar() {
       </DockIcon>
       <DockIcon className={currentRoute === "/blog" ? active : inactive}>
         <PencilLine
-          className={`size-full ${
+          className={`size-full max-sm:size-auto ${
             currentRoute === "/blog" ? "text-[#dbdbdb]" : "text-[#6a6a6a]"
           }`}
           onClick={() => router.push("/blog")}
@@ -44,7 +44,7 @@ export function Dockbar() {
       </DockIcon>
       <DockIcon className={currentRoute === "/about" ? active : inactive}>
         <Sticker
-          className={`size-full ${
+          className={`size-full max-sm:size-auto ${
             currentRoute === "/about" ? "text-[#dbdbdb]" : "text-[#6a6a6a]"
           }`}
           onClick={() => router.push("/about")}
@@ -52,7 +52,7 @@ export function Dockbar() {
       </DockIcon>
       <DockIcon className={currentRoute === "/contact" ? active : inactive}>
         <Mail
-          className={`size-full ${
+          className={`size-full max-sm:size-auto ${
             currentRoute === "/contact" ? "text-[#dbdbdb]" : "text-[#6a6a6a]"
           }`}
           onClick={() => router.push("/contact")}
