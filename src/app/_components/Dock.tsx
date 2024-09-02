@@ -1,6 +1,6 @@
 "use client";
 
-import { Dock, DockIcon } from "@/components/magicui/dock";
+import { Dock, DockIcon } from "../../components/magicui/dock";
 import { LayoutGrid, Mail, PencilLine, Sticker, Zap } from "lucide-react";
 import { usePathname, useRouter } from "next/navigation";
 

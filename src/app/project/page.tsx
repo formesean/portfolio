@@ -1,11 +1,8 @@
-import { CalendarIcon, FileTextIcon } from "@radix-ui/react-icons";
-import { BellIcon, Share2Icon } from "lucide-react";
-
-import { BentoCard, BentoGrid } from "@/components/magicui/bento-grid";
-import { FadeText } from "@/components/magicui/fade-text";
+import { BentoCard, BentoGrid } from "../../components/magicui/bento-grid";
+import { FadeText } from "../../components/magicui/fade-text";
 import Image from "next/image";
-import DotPattern from "@/components/magicui/dot-pattern";
-import { cn } from "@/lib/utils";
+import DotPattern from "../../components/magicui/dot-pattern";
+import { cn } from "../../lib/utils";
 
 const projects = [
   {

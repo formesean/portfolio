@@ -1,4 +1,4 @@
-import { FadeText } from "@/components/magicui/fade-text";
+import { FadeText } from "../../components/magicui/fade-text";
 import { Experiences } from "../_components/Experience";
 
 export default function About() {
