@@ -1,6 +1,6 @@
 import { TechStack } from "./_components/TechStack";
-import WordPullUp from "@/components/magicui/word-pull-up";
-import WordRotate from "@/components/magicui/word-rotate";
+import WordPullUp from "../components/magicui/word-pull-up";
+import WordRotate from "../components/magicui/word-rotate";
 
 export default function Home() {
   return (

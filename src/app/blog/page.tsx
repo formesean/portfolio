@@ -1,4 +1,4 @@
-import { FadeText } from "@/components/magicui/fade-text";
+import { FadeText } from "../../components/magicui/fade-text";
 
 export default function Blog() {
   return (
