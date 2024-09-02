@@ -5,7 +5,7 @@ import { Button } from "../../components/ui/button";
 
 export default function Contact() {
   return (
-    <section className="flex min-h-screen flex-col items-center pt-20 gap-11">
+    <section className="flex min-h-screen flex-col items-center pt-20 gap-11 max-lg:pb-40">
       <FadeText
         className="text-4xl font-bold"
         direction="down"
@@ -15,7 +15,7 @@ export default function Contact() {
         text="Connect the Dots"
       />
 
-      <div className="w-[700px] text-center text-[#dbdbdb]">
+      <div className="w-[700px] max-md:w-full text-center text-[#dbdbdb]">
         <FadeText
           className="text-xl"
           direction="left"
@@ -27,7 +27,7 @@ export default function Contact() {
       </div>
 
       <MagicCard
-        className="text-focus-in p-8 border-[#202020] cursor-pointer size-3/5 flex-col items-center justify-center shadow-2xl"
+        className="text-focus-in p-8 border-[#202020] cursor-pointer size-3/5 max-sm:w-full flex-col items-center justify-center shadow-2xl"
         gradientColor={"#262626"}
       >
         <div className="flex flex-col items-center justify-center">
@@ -43,7 +43,7 @@ export default function Contact() {
             Sean Aguilar
           </p>
 
-          <p className="text-base text-[#6a6a6a] pt-2">
+          <p className="text-base text-center text-[#6a6a6a] pt-2">
             Computer Engineering Student & Web Developer
           </p>
 

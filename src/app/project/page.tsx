@@ -85,7 +85,7 @@ const projects = [
 
 export default function Project() {
   return (
-    <section className="flex min-h-screen flex-col items-center pt-20 gap-20">
+    <section className="flex min-h-screen flex-col items-center pt-20 gap-20 max-lg:gap-10 max-lg:pb-40">
       <FadeText
         className="text-4xl font-bold"
         direction="down"

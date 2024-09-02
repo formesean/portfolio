@@ -7,11 +7,11 @@ export default function Home() {
     <section className="flex min-h-screen flex-col items-center justify-center gap-5">
       <div className="flex flex-col gap-5">
         <WordPullUp
-          className="text-7xl font-bold text-left tracking-widest"
+          className="text-7xl max-sm:text-5xl font-bold text-left tracking-widest"
           words="Hey, I'm Sean."
         />
         <WordRotate
-          className="text-4xl font-medium text-left tracking-widest"
+          className="text-4xl max-sm:text-2xl font-medium text-left tracking-widest"
           words={["Building the web,", "dreaming in circuits"]}
         />
       </div>
