@@ -28,7 +28,7 @@ const projects = [
     name: "Parcel Tracking System",
     href: "https://klaro.vercel.app",
     description:
-      "Own interpretation and code of a part of Camille Mormal's website.",
+      "Real-time parcel tracker and project on Software Design course.",
     cta: "Live site",
     className: "col-span-3 lg:col-span-2",
     technologies: ["Nextjs", "Shadcn", "Firebase", "Nextauth"],
@@ -47,7 +47,7 @@ const projects = [
     name: "Student Organization Landing Page",
     href: "https://code-usc.vercel.app",
     description:
-      "Own interpretation and code of a part of Camille Mormal's website.",
+      "Computer Driven Enthusiasts - USC official website for events and blogs",
     cta: "Live site",
     className: "col-span-3 lg:col-span-2",
     technologies: ["Nextjs", "Shadcn", "Supbase", "Prisma", "Clerk"],
